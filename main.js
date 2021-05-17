@@ -1,9 +1,9 @@
 "use strict"
 
-let name = 'John';
-let admin = name;
+// let name = 'John';
+// let admin = name;
 
-console.log(admin);
+// console.log(admin);
 console.log('\n');
 
 console.log("Who's there?")
