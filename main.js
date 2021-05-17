@@ -21,5 +21,4 @@ if (login != 'Myxa_B_CMETAHE') {
 } else {
     console.log('Canceled')
 }
-
-console.log('hello!')
+console.log('Hello world!')
