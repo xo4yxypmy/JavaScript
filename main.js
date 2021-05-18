@@ -1,9 +1,9 @@
 "use strict"
 
-// let name = 'John';
-// let admin = name;
+let name = 'John';
+let admin = name;
 
-// console.log(admin);
+console.log(admin);
 console.log('\n');
 
 console.log("Who's there?")
@@ -21,4 +21,3 @@ if (login != 'Myxa_B_CMETAHE') {
 } else {
     console.log('Canceled')
 }
-console.log('Hello world!')
