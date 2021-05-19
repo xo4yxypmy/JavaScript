@@ -34,3 +34,36 @@ function sumSalaries(employeeSalaries) {
     return sum
 }
 console.log('Сума зарплат: ' + sumSalaries(employeeSalaries) + '$')
+
+function calculator(val1, val2, operation) {
+    try {
+
+        if (typeof val1 === "number" && typeof val2 === "number") {
+            switch (operation) {
+                case "+":
+                    return val1 + val2;
+                    break;
+                case "*":
+                    return val1 * val2;
+                    break;
+                case "-":
+                    return val1 - val2;
+                    break;
+                case "/":
+                    return val1 / val2;
+                    break;
+                default:
+                    console.log("Something went wrong");
+            }
+        } else {
+            throw new Error('Error!')
+        }
+
+    } catch (err) {
+        console.log(err)
+    }
+
+}
+
+console.log(calculator('ff', 6, "+"))
+console.log(calculator(5, 4, "*"))
